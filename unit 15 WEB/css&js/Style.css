@@ -1,0 +1,468 @@
+/* CSS Document */
+* {
+  box-sizing: border-box;
+}
+.page-wrapper {
+  float: left;
+  width: 80%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .page-wrapper {
+    width: 80%;
+    padding: 0;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .page-wrapper {
+    width: 100%;
+  }
+}
+
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to bottom, #804000 , #A12E1D);
+    height: 114.5vh;
+    width: 100%;
+}
+.Subbutton{
+	width:15vh;
+	right:5vh;
+	position: absolute;
+	top:8vh;
+}
+.SubbuttonTwo{
+	width:15vh;
+	right:5vh;
+	position: absolute;
+	top:16.5vh;
+}
+.Logo{
+	position:absolute;
+	width:15vh; 
+	height:15vh;
+	top:-0.5vh;
+}
+
+.slogan{
+	position: absolute;
+	right:42%; 
+	width:11vw; 
+	height:11vw;
+	top:-4.7vh; 
+}
+.Visit{
+	bottom: 10vh;
+	position: absolute;
+	width: 7vw;
+	left:7vh;
+}
+.band{
+	bottom: 23.5vh;
+	position: absolute;
+	width: 4.5vw;
+	left:4.5vh;
+}
+.BuyNow{
+	bottom: 18.5vh;
+	position: absolute;
+	width:5vw;
+	left:4.7vh;
+}
+.GFB{
+	list-style: none;
+	bottom: 25vh;
+	left:16vh;
+	position: absolute;
+	color: white;
+}
+.price{
+	list-style: none;
+	bottom: 20vh;
+	left:16vh;
+	position: absolute;
+	color: white;
+}
+.Merch_visit{
+	list-style: none;
+	bottom: 15vh;
+	left:5vh;
+	position: absolute;
+	color: white;
+}
+.banner-home{
+	background-color:#404F3B;
+	height:14vh;
+	width:78.95vw;
+	border-top: none;
+	position: absolute;
+	left:20.2vh;
+}
+.Ytub{
+	position:absolute;
+	width: 4vw;
+	height: 5vh;
+	top: 0vh;
+	right: 6vh;
+}
+.FB{
+	position:absolute;
+	width:3vw;
+	height: 5vh;
+	top: 0vh;
+	right: 1vh;
+}
+.Twitter{
+	position:absolute;
+	width:3vw;
+	height: 4.5vh;
+	top: 6vh;
+	right: 1vh;
+}
+.GRSS{
+	position:absolute;
+	width:2.5vw;
+	height: 4.5vh;
+	top: 6vh;
+	right: 7.5vh;
+}
+.NavBar{	
+    width: 78.95vw;
+    height: 6.5vh;
+    background-color:#8BAB7F;
+    position: absolute;
+	bottom:79.3vh;
+	left:20.2vh;
+}
+.NavBar li{
+	text-align: center;
+	width:10%;
+	height: 3.8vh;
+	display:inline-block;
+	list-style:none;
+	bottom: 0;
+    border-bottom: none;
+	font-size: 1.5vw;
+	top:20%;
+	
+}
+.nav a:link, .nav a:visited, .nav a:hover, .nav a:active{
+	color:black;
+	text-decoration: none;
+		
+}
+#a{
+	position:absolute;
+	color:black;
+	background-color:#CFFFBE;
+	border:black groove 2px;
+	left:4vh;
+}
+#b{
+	position:absolute;
+	color:black;
+	background-color:#CFFFBE;
+	left: 18vw;
+	border:black groove 2px;
+}
+#c{
+	position:absolute;
+	color:black;
+	background-color:#CFFFBE;
+	left:35vw;
+	border:black groove 2px;
+}
+#d{
+	position:absolute;
+	color:black;
+	background-color:#CFFFBE;
+	left:52vw;
+	border:black groove 2px;
+}
+#e{
+	position:absolute;
+	color:black;
+	background-color:#FF8000;
+	left:69vw;
+	border:black groove 2px;
+}
+.Vid{
+	position: absolute;
+	left:75vh;
+	top:21vh;
+	width:90vh;
+	height:50vh;
+}
+.About_us_summery{
+	position: absolute;
+	left:75vh;
+	top:71vh;
+}
+.content{
+	position: absolute;
+	left:75vh;
+	top:76vh;
+	font-size:12pt;
+	width: 35vw;
+}
+.news{
+  position: absolute;
+  left: 3px;
+  font-size: 18px;
+  bottom: 21vh;
+  color: white;
+}
+.rss{
+  position: absolute;
+  left: 3px;
+  font-size: 18px;
+  top:14vh;
+  color: white;
+}
+.footer{
+	top: 100.5vh;
+    width: 79.2vw;
+    height: 14vh;
+	left:19.9vh;
+    background-color: #404F3B;
+    position: absolute;
+	border-top:black groove 2px;
+	border-bottom: none;
+}
+.footer li{
+	text-align: center;
+	font-size: 1.5vw;
+	list-style:none;
+}
+.section_one{
+	top:20.7vh;
+	left:20.2vh;
+	width: 26.2vw;
+	position: absolute;
+	border: white groove 2px;
+	border-bottom: none;
+	border-top:none;
+	background-color: transparent;
+	padding-bottom: 30%;
+	border-left:none;
+}
+.section_one button{
+	list-style: none;
+	text-align: center;
+	background-color:#FFF2CC;
+	border:#D6B656 groove 2px;
+	font-size: 18px;
+	width:100%;
+}
+.sub_titel{
+	position: absolute;
+	left:0.1vh;
+	top:1.5vh;
+	border-bottom: white groove 2px;
+	padding-right: 100%;
+	padding-left: 0vh;
+	color: white;
+	font-size: 18px;
+}
+.Sub{
+	top:71.5vh;
+	width: 15vh;
+	left:20vh;
+	position: absolute;
+	border: white groove 2px;
+	border-bottom: none;
+	border-left: none;
+	background-color: transparent;
+	font-size:12pt;
+	padding: 10vh;
+	padding-bottom: 19vh;
+}
+.Sub li{
+	list-style: none;
+}
+.Merch{
+	top:71.5vh;
+	width:11%;
+	left:38vh;
+	position: absolute;
+	border: white groove 2px;
+	border-bottom: none;
+	border-left: none;
+	background-color: transparent;
+	font-size: 12pt;
+	padding:19vh;
+	padding-right:7.7%;
+}
+.Merch li{
+	list-style: none;
+}
+.Merch_Title{
+	position: absolute;
+	left:-1.3vh;
+	top:1.5vh;
+	border-bottom: white groove 2px;
+	padding-right: 2vh;
+	padding-left: 17.22vh;
+	color: white;
+	font-size: 18px;
+}
+.Information{
+	position: absolute;
+	left: 0vh;
+	top:1vh;
+	width:150vh;
+	height:50vh;
+}
+.page-wrapper{
+	margin-right: 20vh;
+	margin-left: 20vh;
+	border: 2px solid black;
+	padding-bottom:100vh;
+}
+.dropbtn {
+	min-width: 26.1vw;
+  	background-color: #3498DB;
+  	font-size: 12px;
+  	cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 27.8vw;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+.twitter-timeline{
+	max-height:10vh;
+}
+.Director{
+	width:10vw;
+}
+.Mband{
+	position: absolute;
+	width:10vw;
+	top: 23vw;
+	left:20vw;
+}
+.buy-button1{
+	position: absolute;
+	width:5vw;
+	top:33.9vw;
+	left: 25vw;
+}
+.price1{
+	position: absolute;
+	top:34vw;
+	font-size: 16pt;
+	left: 20vw;
+}
+.Tshirt{
+	position: absolute;
+	width:10vw;
+	top: 23vw;
+	left:45vw;
+}
+.buy-button2{
+	position: absolute;
+	width:5vw;
+	top:33.9vw;
+	left: 50vw;
+}
+.price2{
+	position: absolute;
+	top:34vw;
+	font-size: 16pt;
+	left: 45vw;
+}
+.Mug{
+	position: absolute;
+	width:10vw;
+	top: 23vw;
+	left:69vw;
+}
+.buy-button3{
+	position: absolute;
+	width:5vw;
+	top:33.9vw;
+	left: 74vw;
+}
+.price3{
+	position: absolute;
+	top:34vw;
+	font-size: 16pt;
+	left: 69vw;
+}
+.Merch_page_Title{
+	position: absolute;
+	top:12vw;
+	right:43.5vw;
+}
+.Title1{
+	position: absolute;
+	top: 21vw;
+	left:20vw;
+	font-size: 20pt;
+}
+.Title2{
+	position: absolute;
+	top: 21vw;
+	left:45vw;
+	font-size: 20pt;
+}
+.Title3{
+	position: absolute;
+	top: 21vw;
+	left:69vw;
+	font-size: 20pt;
+}
+.About_Title{
+	position: absolute;
+	top: 12vw;
+	right:45.7vw;
+}
+.About_Content{
+	position: absolute;
+	top:20vw;
+	width: 30vw;
+	font-size: 16pt;
+}
+.Lights{
+	position: absolute;
+	top:20vw;
+	width: 30vw;
+	left: 50vw;
+	font-size: 16pt;
+}

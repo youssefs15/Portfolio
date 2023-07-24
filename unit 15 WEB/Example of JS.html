@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+
+
+<script>
+function validateEntry(){ /* Where the function is made */
+	var x = document.forms["validation"]["forname"].value;
+	if(x == null || x == ""){
+		alert("You cannot have blank field. Please type in your forename");
+		return false;
+	}
+}
+</script>
+</head>
+<body>
+	
+<form name="validation" action="validation_blank_field.asp"
+onsubmit="return validateEntry()" method="post"> <!--This is where the function is called and executed under the conditions-->
+Forename: <input type="text" name="forename"> 
+<input type="submit" value="Submit"> 
+</form>
+</body>
+</html>
